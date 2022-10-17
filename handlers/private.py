@@ -14,7 +14,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕Qrupa Əlavə Et➕", url=f"https://t.me/SOmusiqi_Bot?startgroup=true"
+                        "➕Qrupa Əlavə Et➕", url=f"https://t.me/FastMusiciBot?startgroup=true"
                     )
                 ],
                 [
@@ -22,20 +22,20 @@ async def start(_, message: Message):
                         "Əmrlər 📚", callback_data= "cbbilgi"
                     ),
                     #InlineKeyboardButton(
-                    #    "📑 Təkliflər", url="https://t.me/emrelguseynovv"
+                    #    "📑 Təkliflər", url="https://t.me/R4V1_V3Y1S"
                    # )
                 ],
  #               [
   #                  InlineKeyboardButton(
-   #                     "Sahib💥", url="https://t.me/emrelguseynovv"
+   #                     "Sahib💥", url="https://t.me/R4V1_V3Y1S"
     #                )
      #           ],
                  [
                     InlineKeyboardButton(
-                        "Sahib💥", url="https://t.me/emrelguseynovv"
+                        "Sahib💥", url="https://t.me/R4V1_V3Y1S"
                     ),
                     InlineKeyboardButton(
-                        "Qrup 💬" , url="https://t.me/SohbetOnlineAz"
+                        "Qrup 💬" , url="https://t.me/LuciferProje"
                     )
                 ]
                 
@@ -52,27 +52,27 @@ async def bilgi(_, message: Message):
              [
                  [
                      InlineKeyboardButton(
-                         "↬Bota Get↫", url="https://t.me/SOmusiqi_Bot?start=start"),                     
+                         "↬Bota Get↫", url="https://t.me/FastMusiciBot?start=start"),                     
                      InlineKeyboardButton(
-                         "📑 Təkliflər", url="https://t.me/emrelguseynovv")
+                         "📑 Təkliflər", url="https://t.me/R4V1_V3Y1S")
                  ],[
                      InlineKeyboardButton(
-                         "➕Qrupa Əlavə Et➕", url=f"https://t.me/SOmusiqi_Bot?startgroup=true")
+                         "➕Qrupa Əlavə Et➕", url=f"https://t.me/FastMusiciBot?startgroup=true")
                  ]
              ]
          )
     )
     
-#**Salam {message.from_user.mention}. Mənim adım [𓆩𓄂𝙰𝚂𝚀🇦🇿 ᴍᴜsiᴄ ʙᴏᴛ🎶](https://t.me/Ustamusicbot)\n\nℹ️Mənim {bot} bəzi faydalı xüsusiyyətləri olan teleqram musiqi botuyam. @ustabots-dan dəsdək alaraq yaradılmışam. Qrup'lara əlavə edərək musiqi dinləyə bilərsiniz.\n\n⚡️Məni qruplarınıza əlavə etməkdən çəkinməyin.   
+#**Salam {message.from_user.mention}. Mənim adım [FAST MUSİC](https://t.me/Ustamusicbot)\n\nℹ️Mənim {bot} bəzi faydalı xüsusiyyətləri olan teleqram musiqi botuyam. @ustabots-dan dəsdək alaraq yaradılmışam. Qrup'lara əlavə edərək musiqi dinləyə bilərsiniz.\n\n⚡️Məni qruplarınıza əlavə etməkdən çəkinməyin.   
 @Client.on_callback_query(filters.regex("herkess"))
 async def herkess(_, query: CallbackQuery):
-    await query.edit_message_text(f"""**Salam {message.from_user.mention}. Mənim adım [𝐒𝐎 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 🇦🇿](https://t.me/SOmusiqi_Bot)\n\nℹ️Mənim {bot} bəzi faydalı xüsusiyyətləri olan teleqram musiqi botuyam. @ustabots-dan dəsdək alaraq yaradılmışam. Qrup'lara əlavə edərək musiqi dinləyə bilərsiniz.\n\n⚡️Məni qruplarınıza əlavə etməkdən çəkinməyin.""",
+    await query.edit_message_text(f"""**Salam {message.from_user.mention}. Mənim adım [𝐒𝐎 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 🇦🇿](https://t.me/FastMusiciBot)\n\nℹ️Mənim {bot} bəzi faydalı xüsusiyyətləri olan teleqram musiqi botuyam. @ustabots-dan dəsdək alaraq yaradılmışam. Qrup'lara əlavə edərək musiqi dinləyə bilərsiniz.\n\n⚡️Məni qruplarınıza əlavə etməkdən çəkinməyin.""",
     reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/SOmusiqi_Bot?startgroup=true" )],
+            [[InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/FastMusiciBot?startgroup=true" )],
              [InlineKeyboardButton("Əmrlər 📚", callback_data= "cbbilgi")],
-            # [InlineKeyboardButton("Sahib💥", url="https://t.me/emrelguseynovv")],
-             [InlineKeyboardButton("Sahib💥", url="https://t.me/emrelguseynovv"),
-              InlineKeyboardButton("Qrup 💬" , url="https://t.me/SohbetOnlineAz")]]))    
+            # [InlineKeyboardButton("Sahib💥", url="https://t.me/R4V1_V3Y1S")],
+             [InlineKeyboardButton("Sahib💥", url="https://t.me/R4V1_V3Y1S"),
+              InlineKeyboardButton("Qrup 💬" , url="https://t.me/LuciferProje")]]))    
    
 @Client.on_callback_query(filters.regex("cbbilgi"))
 async def cbbilgi(_, query: CallbackQuery):
