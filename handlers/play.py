@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "SOmusic_asisstant"
+        user.first_name = "FastMusicAssistan"
     usar = user
     wew = usar.id
     try:
@@ -198,11 +198,11 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/SOmusiqi_Bot?startgroup=true"),
-                InlineKeyboardButton("Qrup 💬" , url="https://t.me/SohbetOnlineAz"),
+                InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/FastMusiciBot?startgroup=true"),
+                InlineKeyboardButton("Qrup 💬" , url="https://t.me/LuciferProje"),
             ],
             [
-                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/SOmusiqi_Bot?start=start"),
+                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/FastMusiciBot?start=start"),
                # InlineKeyboardButton("Usta Bots💡", url=f"https://t.me/ustabots"),
             ],
                 [
@@ -268,11 +268,11 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
              [
-                InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/SOmusiqi_Bot?startgroup=true"),
-                InlineKeyboardButton("Qrup 💬" , url="https://t.me/SohbetOnlineAz"),
+                InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/FastMusiciBot?startgroup=true"),
+                InlineKeyboardButton("Qrup 💬" , url="https://t.me/LuciferProje"),
             ],
             [
-                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/SOmusiqi_Bot?start=start"),
+                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/FastMusiciBot?start=start"),
               #  InlineKeyboardButton("Usta Bots💡", url=f"https://t.me/ustabots"),
             ],
             [
