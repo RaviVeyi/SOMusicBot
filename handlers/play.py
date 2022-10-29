@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "FastMusicAssistan"
+        user.first_name = "MusicPlayerAsisstant"
     usar = user
     wew = usar.id
     try:
@@ -198,11 +198,11 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/FastMusiciBot?startgroup=true"),
-                InlineKeyboardButton("Qrup 💬" , url="https://t.me/LuciferProje"),
+                InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/MusiciPlayerbot?startgroup=true"),
+                InlineKeyboardButton("Qrup 💬" , url="https://t.me/lovelesslifee"),
             ],
             [
-                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/FastMusiciBot?start=start"),
+                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/MusiciPlayerbot?start=start"),
                # InlineKeyboardButton("Usta Bots💡", url=f"https://t.me/ustabots"),
             ],
                 [
@@ -268,12 +268,12 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
              [
-                InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/FastMusiciBot?startgroup=true"),
-                InlineKeyboardButton("Qrup 💬" , url="https://t.me/LuciferProje"),
+                InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/MusiciPlayerbot?startgroup=true"),
+                InlineKeyboardButton("Qrup 💬" , url="https://t.me/lovelesslifee"),
             ],
             [
-                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/FastMusiciBot?start=start"),
-              #  InlineKeyboardButton("Usta Bots💡", url=f"https://t.me/ustabots"),
+                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/MusiciPlayerbot?start=start"),
+              #  InlineKeyboardButton("Usta Bots💡", url=f"https://t.me/lovelesslifee"),
             ],
             [
                 InlineKeyboardButton("✖️ Bağla", callback_data="cls"),
