@@ -198,11 +198,11 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/MusiciPlayerbot?startgroup=true"),
-                InlineKeyboardButton("Qrup 💬" , url="https://t.me/lovelesslifee"),
+                InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/HasbullaMusicbot?startgroup=true"),
+                InlineKeyboardButton("Qrup 💬" , url="https://t.me/HasbullaBlog"),
             ],
             [
-                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/MusiciPlayerbot?start=start"),
+                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/HasbullaMusicbot?start=start"),
                # InlineKeyboardButton("Usta Bots💡", url=f"https://t.me/ustabots"),
             ],
                 [
@@ -268,11 +268,11 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
              [
-                InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/MusiciPlayerbot?startgroup=true"),
-                InlineKeyboardButton("Qrup 💬" , url="https://t.me/lovelesslifee"),
+                InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/HasbullaMusicbot?startgroup=true"),
+                InlineKeyboardButton("Qrup 💬" , url="https://t.me/HasbullaBlog"),
             ],
             [
-                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/MusiciPlayerbot?start=start"),
+                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/HasbullaMusicbot?start=start"),
               #  InlineKeyboardButton("Usta Bots💡", url=f"https://t.me/lovelesslifee"),
             ],
             [
