@@ -9,12 +9,12 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://te.legra.ph/file/7d0dd992833827d8dc7b7.mp4",
-                caption=(f"""**Salam {message.from_user.mention}. Mənim adım [𝐅𝐀𝐒𝐓 𝐌𝐔𝐒İ𝐂 🇦🇿](https://t.me/MusiciPlayerbot)\n\nℹ️Mənim {bot} bəzi faydalı xüsusiyyətləri olan teleqram musiqi botuyam.iQrup'lara əlavə edərək musiqi dinləyə bilərsiniz.\n\n⚡️Məni qruplarınıza əlavə etməkdən çəkinməyin.\n🤖𝐃𝐢𝐠ə𝐫 𝐁𝐨𝐭𝐥𝐚𝐫 :@lovelesslifee\n🎙𝐊𝐚𝐧𝐚𝐥 : @lovelesslifee**"""),
+                caption=(f"""**Salam {message.from_user.mention}. Mənim adım [𝐅𝐀𝐒𝐓 𝐌𝐔𝐒İ𝐂 🇦🇿](https://t.me/HasbullaMusicbot)\n\nℹ️Mənim {bot} bəzi faydalı xüsusiyyətləri olan teleqram musiqi botuyam.iQrup'lara əlavə edərək musiqi dinləyə bilərsiniz.\n\n⚡️Məni qruplarınıza əlavə etməkdən çəkinməyin.\n🤖𝐃𝐢𝐠ə𝐫 𝐁𝐨𝐭𝐥𝐚𝐫 :@HasbullaMMC\n🎙𝐊𝐚𝐧𝐚𝐥 : @HasbullaMMC **"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕Qrupa Əlavə Et➕", url=f"https://t.me/MusiciPlayerbot?startgroup=true"
+                        "➕Qrupa Əlavə Et➕", url=f"https://t.me/HasbullaMusicbot?startgroup=true"
                     )
                 ],
                 [
@@ -22,20 +22,20 @@ async def start(_, message: Message):
                         "Əmrlər 📚", callback_data= "cbbilgi"
                     ),
                     #InlineKeyboardButton(
-                    #    "📑 Təkliflər", url="https://t.me/r4v1_v6y1s"
+                    #    "📑 Təkliflər", url="https://t.me/Hasbullahh"
                    # )
                 ],
  #               [
   #                  InlineKeyboardButton(
-   #                     "Sahib💥", url="https://t.me/r4v1_v6y1s"
+   #                     "Sahib💥", url="https://t.me/Hasbullahh"
     #                )
      #           ],
                  [
                     InlineKeyboardButton(
-                        "Sahib💥", url="https://t.me/r4v1_v6y1s"
+                        "Sahib💥", url="https://t.me/Hasbullahh"
                     ),
                     InlineKeyboardButton(
-                        "Qrup 💬" , url="https://t.me/lovelesslifee"
+                        "Qrup 💬" , url="https://t.me/HasbullaBlog"
                     )
                 ]
                 
@@ -52,27 +52,27 @@ async def bilgi(_, message: Message):
              [
                  [
                      InlineKeyboardButton(
-                         "↬Bota Get↫", url="https://t.me/MusiciPlayerbot?start=start"),                     
+                         "↬Bota Get↫", url="https://t.me/HasbullaMusicbot?start=start"),                     
                      InlineKeyboardButton(
-                         "📑 Təkliflər", url="https://t.me/r4v1_v6y1s")
+                         "📑 Təkliflər", url="https://t.me/Hasbullahh")
                  ],[
                      InlineKeyboardButton(
-                         "➕Qrupa Əlavə Et➕", url=f"https://t.me/MusiciPlayerbot?startgroup=true")
+                         "➕Qrupa Əlavə Et➕", url=f"https://t.me/HasbullaMusicbot?startgroup=true")
                  ]
              ]
          )
     )
     
-#**Salam {message.from_user.mention}. Mənim adım [MUSİC PLAYER](https://t.me/MusiciPlayerbot)\n\nℹ️Mənim {bot} bəzi faydalı xüsusiyyətləri olan teleqram musiqi botuyam. @sohbetqrupuduu-dan dəsdək alaraq yaradılmışam. Qrup'lara əlavə edərək musiqi dinləyə bilərsiniz.\n\n⚡️Məni qruplarınıza əlavə etməkdən çəkinməyin.   
+#**Salam {message.from_user.mention}. Mənim adım [HASBULLA MUSİC](https://t.me/HasbullaMusicbot)\n\nℹ️Mənim {bot} bəzi faydalı xüsusiyyətləri olan teleqram musiqi botuyam. @Hasbullahh-dan dəsdək alaraq yaradılmışam. Qrup'lara əlavə edərək musiqi dinləyə bilərsiniz.\n\n⚡️Məni qruplarınıza əlavə etməkdən çəkinməyin.   
 @Client.on_callback_query(filters.regex("herkess"))
 async def herkess(_, query: CallbackQuery):
-    await query.edit_message_text(f"""**Salam {message.from_user.mention}. Mənim adım [𝐒𝐎 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 🇦🇿](https://t.me/MusiciPlayerbot)\n\nℹ️Mənim {bot} bəzi faydalı xüsusiyyətləri olan teleqram musiqi botuyam. @sohbetqrupuduu-dan dəsdək alaraq yaradılmışam. Qrup'lara əlavə edərək musiqi dinləyə bilərsiniz.\n\n⚡️Məni qruplarınıza əlavə etməkdən çəkinməyin.""",
+    await query.edit_message_text(f"""**Salam {message.from_user.mention}. Mənim adım [HASBULLA MUSİC 🇦🇿](https://t.me/HasbullaMusicbot)\n\nℹ️Mənim {bot} bəzi faydalı xüsusiyyətləri olan teleqram musiqi botuyam. @Hasbullahh-dan dəsdək alaraq yaradılmışam. Qrup'lara əlavə edərək musiqi dinləyə bilərsiniz.\n\n⚡️Məni qruplarınıza əlavə etməkdən çəkinməyin.""",
     reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/MusiciPlayerbot?startgroup=true" )],
+            [[InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/HasbullaMusicbot?startgroup=true" )],
              [InlineKeyboardButton("Əmrlər 📚", callback_data= "cbbilgi")],
-            # [InlineKeyboardButton("Sahib💥", url="https://t.me/r4v1_v6y1s")],
-             [InlineKeyboardButton("Sahib💥", url="https://t.me/r4v1_v6y1s"),
-              InlineKeyboardButton("Qrup 💬" , url="https://t.me/lovelesslifee")]]))    
+            # [InlineKeyboardButton("Sahib💥", url="https://t.me/Hasbullahh")],
+             [InlineKeyboardButton("Sahib💥", url="https://t.me/Hasbullahh"),
+              InlineKeyboardButton("Qrup 💬" , url="https://t.me/HasbullaBlog")]]))    
    
 @Client.on_callback_query(filters.regex("cbbilgi"))
 async def cbbilgi(_, query: CallbackQuery):
