@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "MusicPlayerAsisstant"
+        user.first_name = "TeleqramMusicAsisstant"
     usar = user
     wew = usar.id
     try:
@@ -127,7 +127,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**𝓜𝓾𝓼𝓲𝓬 𝓐𝓼𝓲𝓼𝓼𝓽𝓪𝓷𝓽🦅 bu qrupa musiqi oxumaq üçün daxil oldu...🥳**")
+                        message.chat.id, "**ᴍᴜꜱɪᴄ ᴀꜱɪꜱꜱᴛᴀɴᴛ🎵 bu qrupa musiqi oxumaq üçün daxil oldu...🥳**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -198,11 +198,11 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/HasbullaMusicbot?startgroup=true"),
-                InlineKeyboardButton("Qrup 💬" , url="https://t.me/HasbullaBlog"),
+                InlineKeyboardButton("➕Qʀᴜᴘᴀ ƏʟᴀᴠƏ ᴇᴛ➕", url=f"https://t.me/TeleqrammusicBot?startgroup=true"),
+                InlineKeyboardButton("ᴋᴀɴᴀʟ 📺" , url="https://t.me/Teleqrambots"),
             ],
             [
-                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/HasbullaMusicbot?start=start"),
+                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/TeleqrammusicBot?start=start"),
                # InlineKeyboardButton("Usta Bots💡", url=f"https://t.me/ustabots"),
             ],
                 [
@@ -268,11 +268,11 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
              [
-                InlineKeyboardButton("➕Qrupa Əlavə Et➕", url=f"https://t.me/HasbullaMusicbot?startgroup=true"),
-                InlineKeyboardButton("Qrup 💬" , url="https://t.me/HasbullaBlog"),
+                InlineKeyboardButton("➕Qʀᴜᴘᴀ ƏʟᴀᴠƏ ᴇᴛ➕", url=f"https://t.me/TeleqrammusicBot?startgroup=true"),
+                InlineKeyboardButton("ᴋᴀɴᴀʟ 📺" , url="https://t.me/Teleqrambots"),
             ],
             [
-                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/HasbullaMusicbot?start=start"),
+                InlineKeyboardButton("↬Bota Get↫", url="https://t.me/TeleqrammusicBot?start=start"),
               #  InlineKeyboardButton("Usta Bots💡", url=f"https://t.me/lovelesslifee"),
             ],
             [
