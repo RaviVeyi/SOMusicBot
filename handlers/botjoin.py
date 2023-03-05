@@ -20,25 +20,25 @@ async def addchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "𓄂𝙰𝚂𝚀|🇦🇿 𝓜𝓾𝓼𝓲𝓬 𝓐𝓼𝓲𝓼𝓼𝓽𝓪𝓷𝓽🦅"
+        user.first_name =  "𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐮𝐬𝐢𝐜 𝐀𝐬𝐢𝐬𝐬𝐭𝐚𝐧𝐬"
 
     try:
         await USER.join_chat(invitelink)
         await USER.send_message(message.chat.id,"İstəyinizlə Gəldim...🥳")
     except UserAlreadyParticipant:
         await message.reply_text(
-            "<b>𓄂𝙰𝚂𝚀|🇦🇿 𝓜𝓾𝓼𝓲𝓬 𝓐𝓼𝓲𝓼𝓼𝓽𝓪𝓷𝓽🦅 onsuzda qrupda var.</b>",
+            "<b>𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐮𝐬𝐢𝐜 𝐀𝐬𝐢𝐬𝐬𝐭𝐚𝐧𝐬 onsuzda qrupda var.</b>",
         )
         pass
     except Exception as e:
         print(e)
         await message.reply_text(
             f"<b>📛Gözləmə xətası.\n User {user.first_name} qrupa daxil ola bilmədiyindən, bot musiqi oxuda bilmir.\n {user.first_name}, Qrupda əvvəlcədən qadağan olmadığını yoxlayın,sonra yenidən cəhd edin."
-            "\n\n və ya qrupa @ASQMusicAssistant hesabını əlavə edin. </b>",
+            "\n\n və ya qrupa @TeleqramMusicAsisstant hesabını əlavə edin. </b>",
         )
         return
     await message.reply_text(
-            "<b>𓄂𝙰𝚂𝚀|🇦🇿 𝓜𝓾𝓼𝓲𝓬 𝓐𝓼𝓲𝓼𝓼𝓽𝓪𝓷𝓽🦅 onsuzda qrupda var.</b>",
+            "<b>𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐮𝐬𝐢𝐜 𝐀𝐬𝐢𝐬𝐬𝐭𝐚𝐧𝐬 onsuzda qrupda var.</b>",
         )
     
 @USER.on_message(filters.group & filters.command(["leave"]))
