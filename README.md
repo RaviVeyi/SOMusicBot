@@ -1,7 +1,7 @@
 #SOMusicBot 
 #Owners
 Mucve & Yuni & Hassan
-[LUCİFER](https://t.me/R4V1_V3Y1S)
+[RAVİ BEY](https://t.me/lamRavi)
 
 
 <b>HEROKU'LA DAĞIDIN</b>
